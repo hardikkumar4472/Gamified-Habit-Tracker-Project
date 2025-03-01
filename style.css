@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satoshi:wght@400;600;700&display=swap');
+
+.font-satoshi {
+    font-family: 'Satoshi', sans-serif;
+}
+.font-abril-fatface {
+    font-family: 'Abril Fatface', cursive;
+}
+body {
+    font-family: 'Inter', sans-serif;
+}
+.hover-stretch:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+}
+/* Dark Mode Styles */
+.dark-mode {
+    background-color: #1a202c; /* Dark background */
+    color: #f7fafc; /* Light text color */
+}
+
+.dark-mode header {
+    background-color: #2d3748; /* Dark header */
+}
+
+.dark-mode a {
+    color: #edf2f7; /* Light link color */
+}
+
+.dark-mode .bg-white {
+    background-color: #4a5568; /* Dark background for white elements */
+}
+
+.dark-mode .bg-gray-200 {
+    background-color: #2d3748; /* Dark background for gray elements */
+}
+
+.dark-mode .bg-gray-600 {
+    background-color: #a0aec0; /* Light gray for text */
+}
+/* Dark Mode Styles */
+.dark-mode {
+    background-color: #1a202c; /* Dark background */
+    color: #f7fafc; /* Light text color */
+}
+
+.dark-mode header {
+    background-color: #2d3748; /* Dark header */
+}
+
+.dark-mode nav a {
+    color: #edf2f7; /* Light link color */
+}
+
+.dark-mode .bg-white {
+    background-color: #4a5568; /* Dark background for white elements */
+}
+
+.dark-mode .bg-gray-200 {
+    background-color: #2d3748; /* Dark background for gray elements */
+}
+
+.dark-mode .bg-gray-600 {
+    background-color: #a0aec0; /* Light gray for text */
+}
+
