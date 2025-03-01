@@ -8,7 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Satoshi:wght@400;600;700&display=swap" rel="stylesheet"/>
     <link rel="stylesheet" href="style.css">
 </head>
-<body class="bg-blue-50">
+<body class="bg-blue-50" id="home">
 <header class="bg-white shadow-md">
     <div class="container mx-auto px-4 py-4 flex justify-between items-center">
         <div class="flex items-center space-x-2">
@@ -16,9 +16,9 @@
             <span class="text-2xl font-extrabold text-blue-600 tracking-wide font-abril-fatface">Trackify</span>
         </div>
         <nav class="hidden md:flex space-x-6">
-            <a class="text-gray-700 hover:text-blue-600 transition duration-2000" href="#">Home</a>
-            <a class="text-gray-700 hover:text-blue-600 transition duration-2000" href="#">About Us</a>
-            <a class="text-gray-700 hover:text-blue-600 transition duration-2000" href="#">How to use</a>
+            <a class="text-gray-700 hover:text-blue-600 transition duration-2000" href="#home">Home</a>
+            <a class="text-gray-700 hover:text-blue-600 transition duration-2000" href="#home">About Us</a>
+            <a class="text-gray-700 hover:text-blue-600 transition duration-2000" href="#home">How to use</a>
         </nav>
         <div class="space-x-4 flex items-center">
             <button class="px-4 py-2 text-blue-600 border border-blue-600 rounded-full hover:bg-blue-600 hover:text-white transition duration-2000">Login</button>
@@ -26,9 +26,9 @@
             <button id="mobile-menu-button" class="md:hidden px-4 py-2 text-gray-700 hover:text-blue-600 transition duration-2000">
                 <i class="fas fa-bars"></i>
             </button>
-<!--             <button class="px-4 py-2 text-gray-700 bg-gray-200 rounded-full hover:bg-gray-300 transition duration-2000" id="dark-mode-toggle" onclick="toggleDarkMode()">
+            <button class="px-4 py-2 text-gray-700 bg-gray-200 rounded-full hover:bg-gray-300 transition duration-2000" id="dark-mode-toggle" onclick="toggleDarkMode()">
                 <i class="fas fa-moon"></i>
-            </button> -->
+            </button>
         </div>
     </div>
 </header>
@@ -41,9 +41,9 @@
         </button>
     </div>
     <nav class="flex flex-col items-center">
-        <a class="text-white text-lg py-2" href="#">Home</a>
-        <a class="text-white text-lg py-2" href="#">About Us</a>
-        <a class="text-white text-lg py-2" href="#">How to use</a>
+        <a class="text-white text-lg py-2" href="#home">Home</a>
+        <a class="text-white text-lg py-2" href="#home">About Us</a>
+        <a class="text-white text-lg py-2" href="#home">How to use</a>
     </nav>
 </div>
 
